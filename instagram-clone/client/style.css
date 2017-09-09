@@ -1,0 +1,38 @@
+body{
+    background-color: #fafafa;
+}
+
+.card{
+    background-color: white;
+    border: 1px solid #e6e6e6;
+    max-width: 350px;
+    margin-bottom: 10px;
+}
+
+.form-control{
+    width: 80%;
+    margin-left: 35px;
+    margin-bottom: 5px;
+}
+
+.line{
+    background-color: #c7c7c7;
+    height: 1px;
+    position: relative;
+    top: .45em;
+}
+
+.btn-block{
+    width: 80%;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.thumbnail{
+    padding: 0;
+}
+
+.thumbnail>img {
+     margin-right: 0;
+     margin-left: 0;
+}

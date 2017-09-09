@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>React</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="content"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/react.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/JSXTransformer.js"></script>
+
+  <script type="text/jsx">
+
+    var FirstComponent = React.createClass({
+      render: function() {
+        return <div> hello {this.props.name} </div>;
+      }
+    });
+
+    React.render(<FirstComponent name="John" />, document.getElementById('content') );
+
+  </script>
+
+</body>
+</html>
